@@ -1,13 +1,17 @@
 # MarsRobot
-##Exercise 1
 
-A robot lands on Mars, which happens to be a cartesian grid; assuming that we hand the robot these instructions, such as LFFFRFFFRRFFF, where "L" is a "turn 90 degrees left", "R" is a "turn 90 degrees right", and "F" is "go forward one space, please write control code for the robot such that it ends up at the appropriate-and-correct destination, and include unit tests.
+## Exercise 1
+
+- A robot lands on Mars, which happens to be a cartesian grid; 
+- assuming that we hand the robot these instructions, such as LFFFRFFFRRFFF, 
+- where "L" is a "turn 90 degrees left", "R" is a "turn 90 degrees right", and "F" is "go forward one space, 
+- please write control code for the robot such that it ends up at the appropriate-and-correct destination, and include unit tests.
 
 Here is an example output with command "FF":
-
+````
 [0, 2]
-
-##Exercise 2
+````
+## Exercise 2
 
  
 
@@ -22,14 +26,14 @@ void countUp(int start, int end) {
 }
 
 Here is example output with start=0 and end=5:
-
+````
 0
 1
 2
 3
 4
 5
-
+````
  
 
 Part 2:
@@ -45,7 +49,7 @@ void countUpAndDown(int start, int end) {
 }
 
 Here is example output with start=0 and end=5:
-
+````
 0
 1
 2
@@ -57,5 +61,5 @@ Here is example output with start=0 and end=5:
 2
 1
 0
-
+````
 
